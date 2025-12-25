@@ -8,17 +8,16 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1 style="text-decoration: underline;"> Welcome to Josh's Website  </h1>
+    <h1 id="HeaderName" style="text-decoration: underline;"> Welcome to Josh's Website  </h1>
     <img src= "./josh.jpeg" > 
     <p> This is my first paragraph. I am learning to be a developer.</p>
     <br>
     <h2> Please fill out this quiz:</h2>
     
     <p style="color: blue;">1. Whats your favorite color?</p>
-    <textarea>Enter Color</textarea>
+    <textarea id="colorInput"></textarea>
     <br>
-    <button>Submit</button>
-
+    <button onclick="changeBackground()">Submit</button>
     <p style="color: brown;">2. Whats your favorite food?</p>
     <textarea>Enter Food</textarea>
     <br>
